@@ -16,3 +16,9 @@ my_list.sort()
 index_of_30 = my_list.index(30)
 
 print(index_of_30)
+
+print(my_list)
+numbers = [number*number for number in range(1, 6)]
+print(numbers)
+for n in numbers:
+    print(n)
